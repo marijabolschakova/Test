@@ -1,0 +1,78 @@
+@media (max-width: 575px) 
+    .header
+        &-signin
+                font-size: 20px
+        &-phone
+            text-align: right
+        &-nav
+            &__link
+                display: block
+    
+@media (max-width: 767px)    
+    .header
+        &-logo
+            &__image
+                display: block
+                margin: 0 auto
+        &-phone
+            font-size: 18px
+            margin-bottom: 20px
+            text-align: center
+        &-nav
+            margin-bottom: 20px
+        &-signin
+            width: 100%
+        &-signup
+            width: 100%
+            font-size: 14px
+            padding: 17px 17px
+    .information
+        margin-bottom: 20px
+        &-search
+            width: 100%
+            margin-bottom: 20px
+        &-button
+            padding: 17px 17px
+    .news
+        margin-top: 20px
+        &-block
+            margin-bottom: 15px
+            &__title
+                font-size: 18px
+            &__link
+                font-size: 16px
+
+@media (min-width: 768px) and (max-width: 991px)
+    .header
+        &-nav
+            display: flex
+            justify-content: space-around
+        &-signin
+            width: 100%
+            text-align: right
+        &-signup
+            width: 100%
+            font-size: 16px
+    .news
+        &-blocks    
+            display: block
+        &-block
+            margin-bottom: 30px
+            &__image
+                height: 150px
+                width: 180px
+    .information
+        &-search
+            width: 100%
+
+@media (max-width: 991px)
+    .accordion
+        position: inherit
+        width: 100%
+        margin: 20px 0
+        top: 0
+    
+@media (min-width: 992px) and (max-width: 1199px)
+    .accordion
+        width: 220px
+

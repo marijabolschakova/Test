@@ -1,0 +1,42 @@
+.posters
+    &-after
+        img
+            height: auto
+            max-width: 100%
+            width: auto
+    &_slider
+        &_wrap
+            max-width: 100%
+            margin: auto
+            position: relative
+        &_arrows
+            position: absolute
+            display: flex
+            z-index: 0
+            justify-content: space-between
+            top: 50%
+            width: 100%
+        &_dots
+            display: flex
+            justify-content: center
+            align-items: center
+            list-style: none
+            margin: auto
+            padding: 0
+            margin-top: -30px
+            position: inherit
+            li
+                width: 10px
+                height: 10px
+                background-color: #4f4f4f
+                border-radius: 50%
+                margin: 5px
+                &:hover
+                    cursor: pointer
+            button
+                display: none
+.arrow
+    background-color: transparent
+    border: none
+    &:focus
+        outline: none
